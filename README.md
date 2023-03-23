@@ -8,9 +8,9 @@ Leaning resources:
 
 
 
-# Installing the Go and Development Tools 
+# Installing the Go
 
-Go Compiler and basic tooling:
+Setup the Go Compiler and basic tooling:
 
 Ubuntu 16.04+
 ```
