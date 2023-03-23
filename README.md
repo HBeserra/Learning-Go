@@ -21,4 +21,18 @@ $ sudo apt install golang-go -y
 [Go Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=golang.Go)
 
 
+# Running and Compiling
+
+`go run <program_name>` 
+
+`go build <program_name>`
+
+Windows: `GOOS=windows GOARCH=amd64 go build`
+
+Linux: `GOOS=linux GOARCH=amd64 go build`
+
+Mac: `GOOS=darwin GOARCH=amd64` use `arm64` for m1 or newest processors
+
+`-o` changes the output program name.
+
 
